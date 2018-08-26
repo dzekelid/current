@@ -11,38 +11,28 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Current
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Rotten Tomatoes Get Lists Dvds Current Releases
-  x-api-slug: rotten-tomatoes
+- name: Rotten Tomatoes - Get Lists Dvds Current Releases
+  x-api-slug: listsdvdscurrent-releases-json-get
   description: Get lists dvds current releases.json.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
   humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0//lists/dvds/current_releases.json
-  tags: Lists,Dvds,Current,Releases
+  baseURL: https://api.rottentomatoes.com//api/public/v1.0
+  tags: Movies, General Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/listsdvdscurrent-releases-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/listsdvdscurrent-releases-json-get-openapi.md
-- name: Rotten Tomatoes
-  x-api-slug: rotten-tomatoes
-  description: 'Rotten Tomatoes is a website containing information about movies:
-    information, news, reviews and ratings, pictures, etx. The Rotten Tomatoes API
-    is RESTful web service that was designed to be easy to explore and use. Developers
-    can use the API to access the Rotten Tomatoes&#039; database of movie data by
-    using the Lists, Movies, or DVDs sections of the API.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png
-  humanURL: http://rottentomatoes.com
-  baseURL: https://api.rottentomatoes.com//api/public/v1.0
-  tags: Current
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://rite.kit.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://rotten.tomatoes.stack.network
 - type: x-developer
   url: http://developer.rottentomatoes.com/
 - type: x-twitter

@@ -9,37 +9,30 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/270-uc-ber
 x-kinRank: "9"
 x-alexaRank: "906"
 tags: Current
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/apis.md
 specificationVersion: "0.14"
 apis:
-- name: UC Berkeley Academic Terms API Current Academic Term
-  x-api-slug: uc-berkeley-academic-terms-api
+- name: UC Berkeley Academic Terms API - Current Academic Term
+  x-api-slug: getacademiccurrentterm-get
   description: Get the current academic term.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/270-uc-berkeley.jpg
   humanURL: https://api-central.berkeley.edu/
-  baseURL: https://apis.berkeley.edu//sisconnect//GetAcademicCurrentTerm
-  tags: Current,Academic,Term
+  baseURL: https://apis.berkeley.edu//sisconnect
+  tags: Berkeley, California, Universities, University Portal, University Leader,
+    API LIfeyclessss, Stack Network, Education, Universities, Relative Data, Service
+    API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/getacademiccurrentterm-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/getacademiccurrentterm-get-openapi.md
-- name: UC Berkeley Academic Terms API
-  x-api-slug: uc-berkeley-academic-terms-api
-  description: This API uses the current date to calculate the current and coming
-    years academic terms. For the current term resource it returns the term code and
-    term year. For the next terms resource it returns a set of terms that each include
-    a term title, the combined year and code, and the code and year separately.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/270-uc-berkeley.jpg
-  humanURL: https://api-central.berkeley.edu/
-  baseURL: https://apis.berkeley.edu//sisconnect
-  tags: Current
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://uber.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://uc.berkeley.stack.network
 - type: x-crunchbase
   url: http://www.crunchbase.com/company/university-of-california-berkeley
 - type: x-crunchbase

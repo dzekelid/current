@@ -9,42 +9,28 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Current
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Flat Get current user profile
-  x-api-slug: flat
+- name: Flat - Get current user profile
+  x-api-slug: me-get
   description: Get details about the current authenticated User.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
   humanURL: http://flat.io
-  baseURL: https://api.flat.io//v2//me
-  tags: Current,User,Profile
+  baseURL: https://api.flat.io//v2
+  tags: API Provider, Music, Profiles, Relative Data, General Data
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/me-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/me-get-openapi.md
-- name: Flat
-  x-api-slug: flat
-  description: 'The Flat API allows you to easily extend the abilities of the [Flat
-    Platform](https://flat.io), with a wide range of use cases including the following:
-    Creating and importing new music scores using MusicXML or MIDI files. Browsing,
-    updating, copying, exporting the users scores (for example in MP3, WAV or MIDI).
-    Managing educational resources with Flat for Education: creating &amp; updating
-    the organization accounts, the classes, rosters and assignments. The Flat API
-    is built on HTTP. Our API is RESTful It has predictable resource URLs. It returns
-    HTTP response codes to indicate errors. It also accepts and returns JSON in the
-    HTTP body.'
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png
-  humanURL: http://flat.io
-  baseURL: https://api.flat.io//v2
-  tags: Current
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://fitbit.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://flat.stack.network
 - type: x-developer
   url: https://flat.io/developers
 - type: x-embeddable

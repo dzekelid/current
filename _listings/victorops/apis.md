@@ -7,39 +7,32 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-vict
 x-kinRank: "8"
 x-alexaRank: "196587"
 tags: Current
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-26"
+modified: "2018-08-26"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Victor Ops Get an organization's on-call users
-  x-api-slug: victor-ops
+- name: Victor Ops - Get an organization's on-call users
+  x-api-slug: apipublicv1oncallcurrent-get
   description: |-
     Get all on-call uesrs/teams for your organization.
 
     This API may be called a maximum of 1 times per minute.
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
   humanURL: http://victorops.com
-  baseURL: https://api.victorops.com////api-public/v1/oncall/current
-  tags: Oncall,Current
+  baseURL: https://api.victorops.com//
+  tags: Orchestration, Stack Network, Technology, SaaS, Enterprise, internet, Relative
+    Data, Service API
   properties:
   - type: x-postman-collection
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/apipublicv1oncallcurrent-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/apipublicv1oncallcurrent-get-openapi.md
-- name: Victor Ops
-  x-api-slug: victor-ops
-  description: VictorOps incident managament software gives DevOps observability,
-    collaboration, & real-time alerting, to build, deploy, & operate software. Learn
-    more.
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg
-  humanURL: http://victorops.com
-  baseURL: https://api.victorops.com//
-  tags: Current
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/openapi.md
 x-common:
+- type: x-api-gallery
+  url: http://vestorly.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://victorops.stack.network
 - type: x-blog
   url: https://victorops.com/blog/
 - type: x-blog-rss
@@ -56,6 +49,8 @@ x-common:
   url: sales@victorops.com
 - type: x-github
   url: https://github.com/victorops
+- type: x-openapi
+  url: https://portal.victorops.com/api-docs/victorops-api-v1.yaml
 - type: x-pricing
   url: https://victorops.com/pricing/
 - type: x-twitter

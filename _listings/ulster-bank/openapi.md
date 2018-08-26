@@ -31,6 +31,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Current
       - Personal
       - Accounts
@@ -45,6 +47,8 @@ paths:
         200:
           description: OK
       tags:
+      - Banks
+      - Banking
       - Current
       - Business
       - Accounts
