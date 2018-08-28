@@ -12,7 +12,6 @@ info:
     url: https://apievangelist.com
     email: info@apievangelist.com
   version: 1.0.0
-host: openapi.aibgb.co.uk
 basePath: open-banking/v2.1/
 schemes:
 - http
@@ -20,6 +19,7 @@ produces:
 - application/json
 consumes:
 - application/json
+host: openapi.aibgb.co.uk
 paths:
   business-current-accounts/:
     get:

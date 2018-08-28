@@ -6,11 +6,31 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Current
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rebilly/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Rebilly - Read current authentication options
+  x-api-slug: authenticationoptions-get
+  description: Read current authentication options
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rebilly/authenticationoptions-get-openapi.md
+- name: Rebilly - Retrieve API current status
+  x-api-slug: status-get
+  description: Retrieve API current status
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png
+  humanURL: https://www.rebilly.com
+  baseURL: https://api.rebilly.com//v2.1
+  tags: Billing, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rebilly/status-get-openapi.md
 x-common:
 - type: x-website
   url: https://www.rebilly.com

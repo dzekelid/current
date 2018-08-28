@@ -1,0 +1,1097 @@
+{
+	"name": "Streadata.io API Gallery - Current",
+	"description": "This is a repository of current APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/current.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://current.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Twilio",
+			"x-api-slug": "twilio",
+			"description": "Cloud communications platform for building SMS, Voice & Messaging applications on an API built for global scale. Get started with a free trial.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/143-twilio.jpg",
+			"humanURL": "http://www.twilio.com",
+			"baseURL": "https://api.twilio.com//2010-04-01/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/twilio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Box",
+			"x-api-slug": "box",
+			"description": "Box is changing how you manage content across your business from simple file sharing to building custom apps.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/162-box.jpg",
+			"humanURL": "http://box.com",
+			"baseURL": "https:///",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/box/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Context.IO",
+			"x-api-slug": "context-io",
+			"description": "Create simple email webhooks and code against a free, RESTful, IMAP API.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/172-context-io.jpg",
+			"humanURL": "http://context.io/",
+			"baseURL": "https://api.context.io//2.0/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/context-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "UC Berkeley",
+			"x-api-slug": "uc-berkeley",
+			"description": "Founded in 1868, the University of California, Berkeley is one of the worlds preeminent public universities, boasting a distinguished faculty (with 22 Nobel laureates to date), stellar research libraries, and more than 350 academic programs. At the he...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/270-uc-berkeley.jpg",
+			"humanURL": "https://api-central.berkeley.edu/",
+			"baseURL": "https:///",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pingdom",
+			"x-api-slug": "pingdom",
+			"description": "Monitor your websites availability and performance for free with Pingdom and always be the first to know when your website is down. No installation required.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/456-pingdom.jpg",
+			"humanURL": "http://www.pingdom.com",
+			"baseURL": "https://api.pingdom.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/pingdom/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Atlassian",
+			"x-api-slug": "atlassian",
+			"description": "Millions of users globally rely on Atlassian products every day for improving software development, project management, collaboration, and code quality.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/691-atlassian.jpg",
+			"humanURL": "http://atlassian.com/",
+			"baseURL": "https:////",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/atlassian/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Baltimore Open311",
+			"x-api-slug": "baltimore-open311",
+			"description": "Baltimore 311 helps residents make their neighborhoods more beautiful by reporting local issues including potholes, graffiti, and streetlight outages. Residents can track the status of reports they or other members of the community have submitted",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/baltimore311-logo.png",
+			"humanURL": "http://wiki.open311.org/GeoReport_v2/Servers",
+			"baseURL": "https://311.baltimorecity.gov//open311/v2/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/baltimore-open311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EPA Envirofacts",
+			"x-api-slug": "epa-envirofacts",
+			"description": "EPAs purpose is to ensure that:    -  all Americans are protected from significant risks to human health and the environment where they live, learn and work;    -  national efforts to reduce environmental risk are based on the best available scientifi...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/773-epa-envirofacts.jpg",
+			"humanURL": "http://www.epa.gov",
+			"baseURL": "https://ofmpub.epa.gov//echo",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/epa-envirofacts/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ge.tt",
+			"x-api-slug": "ge-tt",
+			"description": "Extremely simple realtime filesharing. No signup required. Share any number of photos, videos, music, anything - in seconds - no matter how large.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1012-ge-tt.jpg",
+			"humanURL": "http://ge.tt",
+			"baseURL": "https://open.ge.tt//1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/ge-tt/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "TelAPI",
+			"x-api-slug": "telapi",
+			"description": "Zang offers business communications tools & voice app development platforms that bring innovation and ease to unified communications & collaboration solutions.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1176-telapi.jpg",
+			"humanURL": "http://www.telapi.com",
+			"baseURL": "http://api.telapi.com/v2/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/telapi/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Okta",
+			"x-api-slug": "okta",
+			"description": "Provide secure identity management and single sign-on to any application, whether in the cloud, on-premises or on a mobile device for your employees, partners and customers with Okta.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1937-okta.jpg",
+			"humanURL": "https://www.okta.com",
+			"baseURL": "https://example.com//api/v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/okta/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Square",
+			"x-api-slug": "square",
+			"description": "Square helps millions of sellers run their business- from secure credit card processing to point of sale solutions. Get paid faster with Square and sign up today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2176-square.jpg",
+			"humanURL": "http://square.com",
+			"baseURL": "https://connect.squareup.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/square/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Pivotal Tracker",
+			"x-api-slug": "pivotal-tracker",
+			"description": "Pivotal Tracker is the agile project management tool of choice for developers around the world for real-time collaboration around a shared, prioritized backlog.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11526-pivotal-tracker.jpg",
+			"humanURL": "http://pivotaltracker.com",
+			"baseURL": "https://www.pivotaltracker.com//services/v3/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/pivotal-tracker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"x-api-slug": "rotten-tomatoes",
+			"description": "Rotten Tomatoes is a website launched in August 1998 devoted to film reviews and news; it is widely known as a film review aggregator. Coverage now includes TV content as well. The name derives from the practice of audiences throwing rotten tomatoes when disapproving of a poor stage performance. The company was created by Senh Duong and since January 2010 has been owned by Flixster, which itself was acquired in 2011 by Warner Bros.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rotten-tomatoes-logo.png",
+			"humanURL": "http://rottentomatoes.com",
+			"baseURL": "https://api.rottentomatoes.com//api/public/v1.0",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "VictorOps",
+			"x-api-slug": "victorops",
+			"description": "VictorOps incident managament software gives DevOps observability, collaboration, & real-time alerting, to build, deploy, & operate software. Learn more.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20023-victorops.jpg",
+			"humanURL": "http://victorops.com",
+			"baseURL": "https://api.victorops.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "aWhere",
+			"x-api-slug": "awhere",
+			"description": "aWhere Ag Data Management harnesses agriculture analytics to create unprecedented visibility and insight from farm level to national policy. Learn more at aWhere.com!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/21116-developer-awhere-com.jpg",
+			"humanURL": "http://developer.awhere.com/",
+			"baseURL": "https://api.awhere.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/awhere/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HitBTC",
+			"x-api-slug": "hitbtc",
+			"description": "We bring cutting-edge technology to the Bitcoin ecosystem!    Hitbtc provides an excellent trading terminal based on professional trading software which is suitable for new and sophisticated users.    As one of our valued customers, we understand how i...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/hitbtc-logo.png",
+			"humanURL": "https://hitbtc.com",
+			"baseURL": "https:////api/2",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/hitbtc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Brookline Massachusetts 311",
+			"x-api-slug": "brookline-massachusetts-311",
+			"description": "The 311 website for Brookline Massachusetts.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Screen Shot 2017-12-26 at 9.54.50 PM.png",
+			"humanURL": "http://spot.brooklinema.gov/open311",
+			"baseURL": "https://spot.brooklinema.gov//open311/v2/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/brookline-massachusetts-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Chicago Illinois 311",
+			"x-api-slug": "chicago-illinois-311",
+			"description": "Call 311 for assistance with non-emergency City Services and for information on events, programs and agencies within the City of Chicago.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/6A231614-652B-4334-852C-54261F4B13BD",
+			"humanURL": "http://cityofchicago.org/311",
+			"baseURL": "https://311api.cityofchicago.org//open311/v2/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/chicago-illinois-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "San Francisco California 311",
+			"x-api-slug": "san-francisco-california-311",
+			"description": "The 311 service for the City of San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vzN3Pt2u_400x400.png",
+			"humanURL": "http://ouc.dc.gov",
+			"baseURL": "https://mobile311.sfgov.org//open311/v2/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/san-francisco-california-311/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Steem",
+			"x-api-slug": "steem",
+			"description": "A new way for publishers to monetize their online content and community, based on battle-tested blockchain technology.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26649-steemit.jpg",
+			"humanURL": "http://steemit.com",
+			"baseURL": "https://api.steemjs.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/steem/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "HSBC",
+			"x-api-slug": "hsbc",
+			"description": "HSBC Holdings plc is a British multinational banking and financial services holding company, tracing its origin to a hong in Hong Kong. It is the worlds seventh largest bank by total assets and the largest in Europe with total assets of US$2.374 trillion (as of December 2016). It was established in its present form in London in 1991 by The Hongkong and Shanghai Banking Corporation to act as a new group holding company. The origins of the bank lie mainly in Hong Kong and to a lesser extent in Shanghai, where branches were first opened in 1865. The HSBC name is derived from the initials of the Hongkong and Shanghai Banking Corporation. The company was first formally incorporated in 1866. The company continues to see both the United Kingdom and Hong Kong as its home markets.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/HSBC-Logo.png",
+			"humanURL": "https://hsbc.com",
+			"baseURL": "https://api.hsbc.com/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/hsbc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Danske Bank",
+			"x-api-slug": "danske-bank",
+			"description": "Danske Bank is a Danish bank whose name also literally translates into Danish Bank. It was founded 5 October 1871 as Den Danske Landmandsbank, Hypothek- og Vexelbank i Kjbenhavn (The Danish Farmers Bank, Mortgage and Exchange Bank of Copenhagen). Headquartered in Copenhagen, it is the largest bank in Denmark and a major retail bank in the northern European region with over 5 million retail customers. Danske Bank was number 454 on the Fortune Global 500 list for 2011.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28107-danske-bank.jpg",
+			"humanURL": "https://danskebank.com",
+			"baseURL": "https://obp-data.danskebank.com/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/danske-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lloyds Bank",
+			"x-api-slug": "lloyds-bank",
+			"description": "Lloyds Bank plc is a British retail and commercial bank with branches across England and Wales. It has traditionally been considered one of the Big Four clearing banks. The bank was founded in Birmingham in 1765. It expanded during the nineteenth and twentieth centuries and took over a number of smaller banking companies. In 1995 it merged with the Trustee Savings Bank and traded as Lloyds TSB Bank plc between 1999 and 2013.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/lloyds_bank.png",
+			"humanURL": "https://lloydsbank.com",
+			"baseURL": "https://api.lloydsbank.com/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/lloyds-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Barclays",
+			"x-api-slug": "barclays",
+			"description": "Barclays is a British multinational bank and financial services company headquartered in London. It is a universal bank with global reach, offering products and services across personal, corporate and investment banking, credit cards and wealth management. It has operations in over 40 countries and employs approximately 120,000 people. Barclays is organised into four core businesses: Personal &amp; Corporate (Personal Banking, Corporate Banking, Wealth &amp; Investment Management), Barclaycard, Investment Banking and Africa.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/barclays-logo.png",
+			"humanURL": "https://barclays.com",
+			"baseURL": "https://atlas.api.barclays/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/barclays/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"x-api-slug": "royal-bank-of-scotland",
+			"description": "The Royal Bank of Scotland (Scottish Gaelic: Banca R&igrave;oghail na h-Alba, Scots: Ryal Baunk o Scotland, Welsh: Banc Brenhinol yr Alban), commonly abbreviated as RBS, is one of the retail banking subsidiaries of The Royal Bank of Scotland Group plc, together with NatWest and Ulster Bank. The Royal Bank of Scotland has around 700 branches, mainly in Scotland, though there are branches in many larger towns and cities throughout England and Wales. Both the bank and its parent, The Royal Bank of Scotland Group, are completely separate from the fellow Edinburgh-based bank, the Bank of Scotland, which pre-dates The Royal Bank of Scotland by 32 years.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/royal-bank-of-scotland.png",
+			"humanURL": "https://www.rbs.com",
+			"baseURL": "https://openapi.rbs.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/royal-bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Weatherbit.io",
+			"x-api-slug": "weatherbit-io",
+			"description": "Our Weather API is the most powerful Weather data API on the web. Sign up for our free Weather API, and upgrade as your weather data needs grow!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28119-weatherbit.jpg",
+			"humanURL": "http://weatherbit.io",
+			"baseURL": "https://api.weatherbit.io//v2.0",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/weatherbit-io/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "First Trust Bank",
+			"x-api-slug": "first-trust-bank",
+			"description": "First Trust Bank is a trade mark of AIB Group (UK) p.l.c. (a wholly owned subsidiary of Allied Irish Banks, p.l.c.), incorporated in Northern Ireland. Registered Office 92 Ann Street, Belfast BT1 3HH. Registered Number NI018800. Authorised by the Prudential Regulation Authority and regulated by the Financial Conduct Authority and the Prudential Regulation Authority.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/mdy_8774354__firsttrustbank.jpg",
+			"humanURL": "https://firsttrustbank.co.uk/",
+			"baseURL": "https://openapi.firsttrustbank.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/first-trust-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Allied Irish Bank",
+			"x-api-slug": "allied-irish-bank",
+			"description": "Allied Irish Banks (AIB) is one of the so-called Big Four commercial banks in Ireland. AIB offers a full range of personal and corporate banking services. AIB Capital Markets is the division of the company that offers international banking and treasury operations. The bank also offers a range of general insurance products such as home, travel, and health insurance. It offers life assurance and pensions through its tied agency with Irish Life Assurance plc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/allied-irish-bank.jpeg",
+			"humanURL": "https://aibgb.co.uk/",
+			"baseURL": "https://openapi.aibgb.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/allied-irish-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Santander Bank",
+			"x-api-slug": "santander-bank",
+			"description": "Santander Bank, N. A., formerly Sovereign Bank, is a wholly owned subsidiary of Spanish Santander Group. It is based in Boston and its principal market is the northeastern United States. It has $54.7 billion in deposits, operates about 650 retail banking offices and over 2,000 ATMs, and employs approximately 9,800 people. It offers an array of financial services and products including retail banking, mortgages, corporate banking, cash management, credit card, capital markets, trust and wealth management, and insurance.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28128-www-santanderbank-com.jpg",
+			"humanURL": "https://www.santanderbank.com",
+			"baseURL": "https://openapi.santander.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/santander-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NatWest",
+			"x-api-slug": "natwest",
+			"description": "National Westminster Bank, commonly known as NatWest, is a large retail and commercial bank in the United Kingdom. It was established in 1968 by the merger of National Provincial Bank (established 1833 as National Provincial Bank of England) and Westminster Bank (established 1834 as London County and Westminster Bank). Since 2000 it has been part of the Royal Bank of Scotland Group. Following ring-fencing of the Groups core domestic business, the bank is a direct subsidiary of NatWest Holdings. NatWest Markets comprises its investment banking arm.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/natwest-logo.png",
+			"humanURL": "https://personal.natwest.com/personal.html",
+			"baseURL": "https://openapi.natwest.com/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/natwest/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Ulster Bank",
+			"x-api-slug": "ulster-bank",
+			"description": "Ulster Bank is a large commercial bank, and one of the traditional Big Four Irish banks. The Ulster Bank Group is subdivided into two separate legal entities, Ulster Bank Limited (UBL &ndash; registered in Northern Ireland) and Ulster Bank Ireland DAC (UBIDAC &ndash; registered in the Republic of Ireland). The Groups headquarters (and UBIDACs) is located on Georges Quay, Dublin, in the Republic of Ireland whilst the official headquarters of UBL is in Donegall Square East, Belfast, in Northern Ireland, and it maintains a large sector of the financial services in both the UK and the Republic of Ireland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Ulster-Bank-Limited-2090.png",
+			"humanURL": "https://digital.ulsterbank.co.uk/",
+			"baseURL": "https://openapi.ulsterbank.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/ulster-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Halifax Bank",
+			"x-api-slug": "halifax-bank",
+			"description": "Halifax is a British bank operating as a trading division of Bank of Scotland, itself a wholly owned subsidiary of Lloyds Banking Group. It is named after the town of Halifax, West Yorkshire where it was founded as a building society in 1853",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Halifax_Logo.png",
+			"humanURL": "https://www.halifax.co.uk/",
+			"baseURL": "https://api.halifax.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/halifax-bank/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Nationwide Building Society",
+			"x-api-slug": "nationwide-building-society",
+			"description": "Nationwide Building Society is a British mutual financial institution and the largest building society in the world with over 15 million members. It has its headquarters in Swindon, with an office in Threadneedle Street, London, and administration centres based in Bournemouth, Northampton and Dunfermline. Made up of over a hundred mergers &mdash; most notably its merger with Anglia Building Society in 1987 and Portman Building Society in 2007 &mdash; Nationwide is now the second largest provider of household savings and mortgages in the UK.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/nationwide-building-society.png",
+			"humanURL": "https://www.nationwide.co.uk/",
+			"baseURL": "https://openapi.nationwide.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nationwide-building-society/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Ireland",
+			"x-api-slug": "bank-of-ireland",
+			"description": "Bank of Ireland Group plc is a public limited company incorporated in Ireland, with its registered office at 40 Mespil Road, Dublin 4 and registered number 593672. Bank of Ireland Group plc, whose shares are listed on the main markets of the Irish Stock Exchange plc and the London Stock Exchange plc , is the holding company of Bank of Ireland.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-ireland.jpg",
+			"humanURL": "https://www.bankofireland.com/",
+			"baseURL": "https://openapi.bankofireland.com/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/bank-of-ireland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Bank of Scotland",
+			"x-api-slug": "bank-of-scotland",
+			"description": "The Bank of Scotland is a commercial and clearing bank based in Edinburgh, Scotland. With a history dating to the 17th century, it is the fifth-oldest surviving bank in the United Kingdom (the Bank of England having been established one year before), and is the only commercial institution created by the Parliament of Scotland to remain in existence. It was one of the first banks in Europe to print its own banknotes and it continues to print its own sterling banknotes under legal arrangements which allow Scottish banks to issue currency.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/bank-of-scotland-logo.jpg",
+			"humanURL": "https://www.bankofscotland.co.uk/",
+			"baseURL": "https://api.bankofscotland.co.uk/open-banking/v2.1/",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/bank-of-scotland/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AXA Assistance",
+			"x-api-slug": "axa-assistance",
+			"description": "AXA Assistance is a worldwide specialist for car insurance, travel, health and home services. Trust in Axa Assistance for your insurance!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28187-www-axa-assistance-com.jpg",
+			"humanURL": "https://www.axa-assistance.com",
+			"baseURL": "https://sandbox.api.axa-assistance.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/axa-assistance/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Avaza",
+			"x-api-slug": "avaza",
+			"description": "Avaza is a beautiful online software suite with modules for Project Management, Timesheets, Expenses &amp; Invoicing. Access from anywhere, with any device. Avaza is the leading all-in-one software for running client focused businesses. Avaza allows businesses of all sizes to more easily and effectively manage team projects, time tracking, expense reporting, quoting &amp; invoicing. It can be accessed simply via a web browser from anywhere in the world on any device.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28373-avaza.jpg",
+			"humanURL": "https://www.avaza.com",
+			"baseURL": "https:///",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/avaza/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Rebilly",
+			"x-api-slug": "rebilly",
+			"description": "",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/rebilly.png",
+			"humanURL": "https://www.rebilly.com",
+			"baseURL": "https://api.rebilly.com//v2.1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rebilly/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SalesLoft",
+			"x-api-slug": "salesloft",
+			"description": "SalesLoft, the leading sales engagement platform, transforms the way sellers engage with their customers by delivering a better selling experience. Our sales engagement platform helps teams set and execute on a cadence of phone, email, and social communications to convert more target accounts into customer accounts. The platform equips sales leaders with new capabilities to test, learn and adapt to ensure their sales reps execute on the most effective selling process for their account-based approach. SalesLoft delivers access to an extensive ecosystem of 3rd party integrations allowing teams to perform all their sales engagement from a single platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/salesloft.png",
+			"humanURL": "http://salesloft.com",
+			"baseURL": "https://api.salesloft.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/salesloft/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "EU VAT API",
+			"x-api-slug": "eu-vat-api",
+			"description": "A developer friendly API to help your business achieve VAT compliance. Are you selling digital services to other EU countries? From Jan 1st 2015 changes to the VAT place of supply are coming into effect. One acceptable way to prove where your customer resides is their IP address. We have removed the headache and cost of you having to geo locate your customers IP address, and workout what VAT rate they should be charged. Simply pass your customers IP address from your application to our API and well return a JSON or XML object of all the current EU VAT rates for that country, or if you already know their country you can lookup the rates from the 2 digit country code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/vatapi-logo.png",
+			"humanURL": "http://vatapi.com",
+			"baseURL": "https://vatapi.com//v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/eu-vat-api/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Flat",
+			"x-api-slug": "flat",
+			"description": "Whether youre a beginner or a professional composer, our user-friendly music composition software gives you all the tools that you need to make your own sheet music. You can write, listen, share and discover music scores right in your web browser on any device",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/flat-logo.png",
+			"humanURL": "http://flat.io",
+			"baseURL": "https://api.flat.io//v2",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Yapily",
+			"x-api-slug": "yapily",
+			"description": "Yapily is how people connect to banks, easily! We are an API Only technology provider whose mission is to enable innovative products to connect to banks, empowering a new generation of financial services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/yapily-logo.png",
+			"humanURL": "https://www.yapily.com",
+			"baseURL": "https://api.yapily.com:443//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/yapily/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Predix",
+			"x-api-slug": "predix",
+			"description": "Predix (IoT PaaS) helps you develop apps that connect people with industrial machines through analytics and data for better business outcomes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/predix-vector-logo.png",
+			"humanURL": "https://www.predix.io",
+			"baseURL": "https:////v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/predix/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "NxtPort",
+			"x-api-slug": "nxtport",
+			"description": "NxtPort opens the gates to the Port of the future. This project is a milestone in the digitalization of logistics and cargo.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28835-www-nxtport-eu.jpg",
+			"humanURL": "https://www.nxtport.eu",
+			"baseURL": "https://api-sb.nxtport.eu//PortCallPlus/v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nxtport/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CollabNet",
+			"x-api-slug": "collabnet",
+			"description": "CollabNet is a software development and delivery solutions provider headquartered in South San Francisco, California.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28840-community-versionone-com.jpg",
+			"humanURL": "https://www.collab.net/",
+			"baseURL": "https:////ctfrest/foundation/v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/collabnet/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Vinli",
+			"x-api-slug": "vinli",
+			"description": "Vinli - The easiest, most advanced connected-car system in the world. Vinli is a platform for easily and quickly building connected car apps. Apps get vehicle data through Vinli services.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28875-www-vin-li.jpg",
+			"humanURL": "http://vinli.com",
+			"baseURL": "https://events.vin.li//api/v1",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/vinli/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"x-api-slug": "azure-blockchain-workbench",
+			"description": "Azure Blockchain Workbench helps organizations build rich, integrated multi-party blockchain applications quickly and easily. Azure Blockchain Workbench REST API provides developers and information workers a way to integrate to blockchain applications. For example, a developer can use the REST API to enable IoT devices to send data to a blockchain application. Or, an information worker can use the REST API and Power BI to create visualization of blockchain data.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/azure-blockchain.png",
+			"humanURL": "https://docs.microsoft.com/en-us/rest/api/azure-blockchain-workbench/",
+			"baseURL": "https:////",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/azure-blockchain-workbench/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "CoinFabrik",
+			"x-api-slug": "coinfabrik",
+			"description": "Our smart contract development and full stack blockchain development services are supported by more than 20 years of experience building and reviewing secure applications. CoinFabrik is a full stack blockchain development company. Our expertise range from extending cryptocurrency nodes like Bitcoin and Ethereum to providing high level APIs and UIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png",
+			"humanURL": "https://www.coinfabrik.com",
+			"baseURL": "https://api.coinbase.com//v2",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "nFusion Solutions",
+			"x-api-slug": "nfusion-solutions",
+			"description": "nFusion Solutions ecosystem of products and solutions lets you power your apps, websites and software with precious metals market data directly from exchanges around the world. Built on the Azure Cloud platform, nFusion delivers a reliable and scalabl...",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28883-nfusionsolutions-com.jpg",
+			"humanURL": "http://www.nfusionsolutions.com",
+			"baseURL": "https://api.nfusionsolutions.biz//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nfusion-solutions/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "GIG & CROWD",
+			"x-api-slug": "gig--crowd",
+			"description": "A unique system of the order and booking of artists: negotiations, coordination of conditions, convenient reminders of fee payment terms and rider preparation.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/gigandcrowd.png",
+			"humanURL": "https://gigandcrowd.com",
+			"baseURL": "https://gigandcrowd.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/gig--crowd/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/dezrez/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Coord",
+			"x-api-slug": "coord",
+			"description": "Coord is a mobility company that creates seamless mobility and self-driving experiences today through deep integrations. The company offers bike-share API, Curbs API, Tolls API, Routing API and etc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png",
+			"humanURL": "https://coord.co",
+			"baseURL": "https://api.coord.co//v1/users",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coord/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Xibo",
+			"x-api-slug": "xibo",
+			"description": "Xibo Digital Signage is a low-cost, high performance solution to launch your business, workplace or organisation into the future. Xibo doesn&rsquo;t just replicate print media, but actively increases engagement allowing you to deliver your message more effectively than ever before.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/xibo-digital-signage-logo.jpeg",
+			"humanURL": "http://www.xibo.org.uk",
+			"baseURL": "https:////api",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/xibo/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Logicbroker",
+			"x-api-slug": "logicbroker",
+			"description": "Logicbroker provides beautiful technology that unites brands, retailers, and the systems they rely on. Harness the latest in cloud and supply chain automation technology with unrivaled speed and integration flexibility. We craft the connections that enable digital commerce.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/logicbroker-logo.png",
+			"humanURL": "https://www.logicbroker.com/",
+			"baseURL": "https://stage.commerceapi.io//",
+			"tags": "Current",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/logicbroker/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Current",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "Twilio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/twilio/apis.yaml"
+		},
+		{
+			"name": "Box",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/box/apis.yaml"
+		},
+		{
+			"name": "Context.IO",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/context-io/apis.yaml"
+		},
+		{
+			"name": "UC Berkeley",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/uc-berkeley/apis.yaml"
+		},
+		{
+			"name": "Pingdom",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/pingdom/apis.yaml"
+		},
+		{
+			"name": "Atlassian",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/atlassian/apis.yaml"
+		},
+		{
+			"name": "Baltimore Open311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/baltimore-open311/apis.yaml"
+		},
+		{
+			"name": "EPA Envirofacts",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/epa-envirofacts/apis.yaml"
+		},
+		{
+			"name": "Ge.tt",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/ge-tt/apis.yaml"
+		},
+		{
+			"name": "TelAPI",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/telapi/apis.yaml"
+		},
+		{
+			"name": "Okta",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/okta/apis.yaml"
+		},
+		{
+			"name": "Square",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/square/apis.yaml"
+		},
+		{
+			"name": "Pivotal Tracker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/pivotal-tracker/apis.yaml"
+		},
+		{
+			"name": "Rotten Tomatoes",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rotten-tomatoes/apis.yaml"
+		},
+		{
+			"name": "VictorOps",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/victorops/apis.yaml"
+		},
+		{
+			"name": "aWhere",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/awhere/apis.yaml"
+		},
+		{
+			"name": "HitBTC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/hitbtc/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Brookline Massachusetts 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/brookline-massachusetts-311/apis.yaml"
+		},
+		{
+			"name": "Chicago Illinois 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/chicago-illinois-311/apis.yaml"
+		},
+		{
+			"name": "San Francisco California 311",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/san-francisco-california-311/apis.yaml"
+		},
+		{
+			"name": "Steem",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/steem/apis.yaml"
+		},
+		{
+			"name": "HSBC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/hsbc/apis.yaml"
+		},
+		{
+			"name": "Danske Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/danske-bank/apis.yaml"
+		},
+		{
+			"name": "Lloyds Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/lloyds-bank/apis.yaml"
+		},
+		{
+			"name": "Barclays",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/barclays/apis.yaml"
+		},
+		{
+			"name": "Royal Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/royal-bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "Weatherbit.io",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/weatherbit-io/apis.yaml"
+		},
+		{
+			"name": "First Trust Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/first-trust-bank/apis.yaml"
+		},
+		{
+			"name": "Allied Irish Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/allied-irish-bank/apis.yaml"
+		},
+		{
+			"name": "Santander Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/santander-bank/apis.yaml"
+		},
+		{
+			"name": "NatWest",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/natwest/apis.yaml"
+		},
+		{
+			"name": "Ulster Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/ulster-bank/apis.yaml"
+		},
+		{
+			"name": "Halifax Bank",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/halifax-bank/apis.yaml"
+		},
+		{
+			"name": "Nationwide Building Society",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nationwide-building-society/apis.yaml"
+		},
+		{
+			"name": "Bank of Ireland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/bank-of-ireland/apis.yaml"
+		},
+		{
+			"name": "Bank of Scotland",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/bank-of-scotland/apis.yaml"
+		},
+		{
+			"name": "AXA Assistance",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/axa-assistance/apis.yaml"
+		},
+		{
+			"name": "Avaza",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/avaza/apis.yaml"
+		},
+		{
+			"name": "Rebilly",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/rebilly/apis.yaml"
+		},
+		{
+			"name": "SalesLoft",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/salesloft/apis.yaml"
+		},
+		{
+			"name": "EU VAT API",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/eu-vat-api/apis.yaml"
+		},
+		{
+			"name": "Flat",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/flat/apis.yaml"
+		},
+		{
+			"name": "Yapily",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/yapily/apis.yaml"
+		},
+		{
+			"name": "Predix",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/predix/apis.yaml"
+		},
+		{
+			"name": "NxtPort",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nxtport/apis.yaml"
+		},
+		{
+			"name": "CollabNet",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/collabnet/apis.yaml"
+		},
+		{
+			"name": "Vinli",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/vinli/apis.yaml"
+		},
+		{
+			"name": "Azure Blockchain Workbench",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/azure-blockchain-workbench/apis.yaml"
+		},
+		{
+			"name": "CoinFabrik",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/apis.yaml"
+		},
+		{
+			"name": "nFusion Solutions",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/nfusion-solutions/apis.yaml"
+		},
+		{
+			"name": "GIG & CROWD",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/gig--crowd/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/dezrez/apis.yaml"
+		},
+		{
+			"name": "Coord",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coord/apis.yaml"
+		},
+		{
+			"name": "Xibo",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/xibo/apis.yaml"
+		},
+		{
+			"name": "Logicbroker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/logicbroker/apis.yaml"
+		}
+	]
+}

@@ -7,8 +7,8 @@ image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1012-ge-tt
 x-kinRank: "8"
 x-alexaRank: "36546"
 tags: Current
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/ge-tt/apis.md
 specificationVersion: "0.14"
 apis:

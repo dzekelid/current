@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: Rotten Tomatoes
 x-complete: 1
@@ -44,4 +43,3 @@ paths:
       - Dvds
       - Current
       - Releases
----

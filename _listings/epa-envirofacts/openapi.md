@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: EPA Envirofacts
 x-complete: 1
@@ -17,4 +16,30 @@ produces:
 - application/json
 consumes:
 - application/json
----
+paths:
+  /air_rest_services.get_map:
+    get:
+      summary: Clean Air Act Map Service
+      description: The purpose of the GET_MAP service is to display facility coordinates
+        and facility clusters related to a get_facilities facility query. Currently,
+        the maximum number of coordinates returned is 500. GET_MAP performs automatic
+        clustering at the state, county, and zip code levels to maximize the number
+        of coordinates returned.
+      operationId: the-purpose-of-the-get-map-service-is-to-display-facility-coordinates-and-facility-clusters-related-
+      x-api-path-slug: air-rest-services-get-map-get
+      parameters:
+      - in: query
+        name: No Name
+      - in: query
+        name: output
+        description: Output Format Flag
+      responses:
+        200:
+          description: OK
+      tags:
+      - Environment
+      - Clean
+      - Air
+      - Act
+      - Map
+      - Service

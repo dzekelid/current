@@ -10,8 +10,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "970321"
 tags: Current
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/apis.md
 specificationVersion: "0.14"
 apis:
@@ -28,6 +28,16 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/user-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/user-get-openapi.md
+- name: Coinbase API - Update current user
+  x-api-slug: user-put
+  description: Modify current user and their preferences.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coinfabrik.png
+  humanURL: https://www.coinfabrik.com
+  baseURL: https://api.coinbase.com//v2
+  tags: SaaS, Blockchain, General Data
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coinfabrik/user-put-openapi.md
 x-common:
 - type: x-blog-rss
   url: https://blog.coinfabrik.com/feed/

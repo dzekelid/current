@@ -6,14 +6,14 @@ info:
   title: Servertime API Get Current Server Time
   description: Get the current time of the API server.
   version: 1.0.0
-host: api.pingdom.com
-basePath: /
 schemes:
 - http
 produces:
 - application/json
 consumes:
 - application/json
+host: api.pingdom.com
+basePath: /
 paths:
   ? |2-
 

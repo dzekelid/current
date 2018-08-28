@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: EU VAT API
 x-complete: 1
@@ -59,4 +58,3 @@ paths:
       - EU
       - VAT
       - Rates
----

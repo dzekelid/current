@@ -8,11 +8,77 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "1035226"
 tags: Current
-created: "2018-08-26"
-modified: "2018-08-26"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coord/apis.md
 specificationVersion: "0.14"
-apis: []
+apis:
+- name: Users API - Retrieve the current user
+  x-api-slug: usercurrent-get
+  description: |-
+    Retrieves information about the currently logged in user, including any associated profile
+    information, vehicle information, and provisioned systems.
+
+    The response will be the full User object:
+
+    ```
+      {
+        "email": "user@domain.com",
+        "vehicle": {
+          "license_plate": {
+            "text": "123abc",
+            "country": "us",
+            "subdivision": "ny"
+          }
+        }
+        "transactable_systems": [
+          {
+            "system_id": "CitiBike",
+            "linked_account": true
+          }
+        ]
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/users
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coord/usercurrent-get-openapi.md
+- name: Users API - Update the current user's vehicle
+  x-api-slug: usercurrentvehicle-put
+  description: |-
+    Update the vehicle information associated with the currently logged in user.
+
+    The request should contain a vehicle object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+
+    On success, the response will be the identical object:
+    ```
+      {
+        "license_plate": {
+          "text": "123abc",
+          "country": "us",
+          "subdivision": "ny"
+        }
+      }
+    ```
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/coord-logo.png
+  humanURL: https://coord.co
+  baseURL: https://api.coord.co//v1/users
+  tags: Parking, Tolls, Bikes, Routes, General Data, Relative Data, Service API
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/current/master/_listings/coord/usercurrentvehicle-put-openapi.md
 x-common:
 - type: x-blog
   url: https://medium.com/coord
